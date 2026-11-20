@@ -1,0 +1,12 @@
+{
+  "name": "imposter_api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.21.2",
+    "zcatalyst-sdk-node": "latest"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}
