@@ -1,9 +1,13 @@
 {
-  "name": "imposter_api",
+  "name": "imposter-game",
   "version": "1.0.0",
-  "main": "index.js",
+  "private": true,
+  "description": "Imposter party game. Runs on Zoho Catalyst, or as a plain Node.js server (Render, etc.).",
+  "scripts": {
+    "start": "node functions/imposter_api/index.js"
+  },
+  "engines": { "node": ">=18" },
   "dependencies": {
-    "express": "^4.21.2",
-    "zcatalyst-sdk-node": "latest"
+    "express": "^4.21.2"
   }
 }
